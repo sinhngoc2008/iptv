@@ -187,47 +187,59 @@
         {
             "channels": [
                 {
-                    "description": "Bone Ritual",
+                    "description": "Kênh VTV1",
                     "display": "text-below",
                     "enable_detail": true,
-                    "id": "that-cot",
+                    "id": "kenh-vtv1",
                     "image": {
-                        "height": 480,
+                        "height": 115,
                         "type": "cover",
-                        "url": "https://phimimg.com/upload/vod/20260406-1/192e03eeb8aa33f9be31ca5524d0810c.jpg",
-                        "width": 640
+                        "url": "https://vn.xemtv.net/image/vtv1.png",
+                        "width": 320
                     },
-                    "label": {
-                        "color": "#35ba8b",
-                        "position": "top-left",
-                        "text_color": "#ffffff"
-                    },
-                    "name": "Thất Cốt",
+                    "name": "Kênh VTV1",
                     "remote_data": {
-                        "url": "https://media.hth4nh.eu.org/kkphim/detail/that-cot"
+                        "url": "https://raw.githubusercontent.com/sinhngoc2008/iptv/refs/heads/master/vtv1.json"
                     },
                     "type": "playlist"
                 },
-                {
-                    "description": "My Name is Zhao Wudi: Starting Over",
+				{
+                    "description": "Kênh VTV2",
                     "display": "text-below",
                     "enable_detail": true,
-                    "id": "toi-la-trieu-ngo-dich-khoi-dong-lai",
+                    "id": "kenh-vtv2",
                     "image": {
-                        "height": 640,
+                        "height": 115,
                         "type": "cover",
-                        "url": "https://phimimg.com/upload/vod/20260415-1/4e5419d698b91ae42349408b04c8a771.jpg",
-                        "width": 480
+                        "url": "https://vn.xemtv.net/image/vtv2.png",
+                        "width": 320
                     },
                     "label": {
                         "color": "#35ba8b",
                         "position": "top-left",
-                        "text": "Tập 14",
+                        "text": "Hoàn Tất (24/24)",
                         "text_color": "#ffffff"
                     },
-                    "name": "Tôi Là Triệu Ngô Địch: Khởi Động Lại",
+                    "name": "Kênh VTV2",
                     "remote_data": {
-                        "url": "https://media.hth4nh.eu.org/kkphim/detail/toi-la-trieu-ngo-dich-khoi-dong-lai"
+                        "url": "https://raw.githubusercontent.com/sinhngoc2008/iptv/refs/heads/master/vtv2.json"
+                    },
+                    "type": "playlist"
+                },
+				{
+                    "description": "Kênh VTV3",
+                    "display": "text-below",
+                    "enable_detail": true,
+                    "id": "kenh-vtv3",
+                    "image": {
+                        "height": 115,
+                        "type": "cover",
+                        "url": "https://vn.xemtv.net/image/vtv3.png",
+                        "width": 320
+                    }
+                    "name": "Kênh VTV3",
+                    "remote_data": {
+                        "url": "https://raw.githubusercontent.com/sinhngoc2008/iptv/refs/heads/master/vtv3.json"
                     },
                     "type": "playlist"
                 }
