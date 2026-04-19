@@ -11,13 +11,7 @@
   "share": {
     "url": "https://raw.githubusercontent.com/sinhngoc2008/iptv/refs/heads/master/kkphim.json"
   },
-  "notice": {
-    "closeable": true,
-    "icon": "https://media.hth4nh.eu.org/static/img/tele.png",
-    "id": "notice",
-    "link": "https://t.me/zzz_monplayer",
-    "text": "Zzz"
-  },
+  "notice": {},
   "sorts": [
     {
       "text": "Mới nhất",
