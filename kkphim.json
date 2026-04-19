@@ -10,9 +10,7 @@
   "description": "This is live Tivi test json for monplayer",
   "share": {
     "url": "https://raw.githubusercontent.com/sinhngoc2008/iptv/refs/heads/master/kkphim.json"
-  },
-  "notice": {},
-  "sorts": [],
+  },  
   "grid_number": 3,
   "channels": [
     {
