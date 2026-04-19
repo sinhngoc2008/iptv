@@ -141,7 +141,46 @@
                     },
                     "name": "Thất Cốt",
                     "remote_data": {
-                        "url": "https://media.hth4nh.eu.org/kkphim/detail/that-cot"
+                        "url": {
+                            "sources": [
+                                {
+                                    "contents": [
+                                        {
+                                            "grid_number": 3,
+                                            "id": "kenh-vtv1",
+                                            "name": "",
+                                            "streams": [
+                                                {
+                                                    "id": "kenh-vtv1",
+                                                    "name": "Kênh VTV1",
+                                                    "stream_links": [
+                                                        {
+                                                            "default": false,
+                                                            "id": "kenh-vtv1-default",
+                                                            "name": "Mặc Định",
+                                                            "request_headers": [
+                                                                {
+                                                                    "key": "User-Agent",
+                                                                    "value": "MonPlayer"
+                                                                },
+                                                                {
+                                                                    "key": "Referer",
+                                                                    "value": "https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8"
+                                                                }
+                                                            ],
+                                                            "type": "hls",
+                                                            "url": "https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "id": "kenh-vtv1",
+                                    "name": "Vietsub"
+                                }
+                            ]
+                        }
                     },
                     "type": "playlist"
                 },
