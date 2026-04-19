@@ -128,10 +128,10 @@
                     "enable_detail": true,
                     "id": "kenh-vtv1",
                     "image": {
-                        "height": 480,
+                        "height": 115,
                         "type": "cover",
                         "url": "https://vn.xemtv.net/image/vtv1.png",
-                        "width": 640
+                        "width": 320
                     },
                     "name": "Kênh VTV1",
                     "remote_data": {
@@ -145,10 +145,10 @@
                     "enable_detail": true,
                     "id": "kenh-vtv2",
                     "image": {
-                        "height": 640,
+                        "height": 115,
                         "type": "cover",
                         "url": "https://vn.xemtv.net/image/vtv2.png",
-                        "width": 480
+                        "width": 320
                     },
                     "label": {
                         "color": "#35ba8b",
@@ -159,6 +159,23 @@
                     "name": "Kênh VTV2",
                     "remote_data": {
                         "url": "https://raw.githubusercontent.com/sinhngoc2008/iptv/refs/heads/master/vtv2.json"
+                    },
+                    "type": "playlist"
+                },
+				{
+                    "description": "Kênh VTV3",
+                    "display": "text-below",
+                    "enable_detail": true,
+                    "id": "kenh-vtv3",
+                    "image": {
+                        "height": 115,
+                        "type": "cover",
+                        "url": "https://vn.xemtv.net/image/vtv3.png",
+                        "width": 320
+                    }
+                    "name": "Kênh VTV3",
+                    "remote_data": {
+                        "url": "https://raw.githubusercontent.com/sinhngoc2008/iptv/refs/heads/master/vtv3.json"
                     },
                     "type": "playlist"
                 }
