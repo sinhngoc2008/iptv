@@ -123,14 +123,14 @@
         {
             "channels": [
                 {
-                    "description": "Bone Ritual",
+                    "description": "Kênh VTV1",
                     "display": "text-below",
                     "enable_detail": true,
-                    "id": "that-cot",
+                    "id": "kenh-vtv1",
                     "image": {
                         "height": 640,
                         "type": "cover",
-                        "url": "https://phimimg.com/upload/vod/20260406-1/192e03eeb8aa33f9be31ca5524d0810c.jpg",
+                        "url": "https://vn.xemtv.net/image/vtv1.png",
                         "width": 480
                     },
                     "label": {
@@ -139,7 +139,7 @@
                         "text": "Hoàn Tất (24/24)",
                         "text_color": "#ffffff"
                     },
-                    "name": "Thất Cốt",
+                    "name": "Kênh VTV1",
                     "remote_data": {
                         "url": {
                             "sources": [
@@ -184,15 +184,15 @@
                     },
                     "type": "playlist"
                 },
-                {
-                    "description": "Bone Ritual",
+				{
+                    "description": "Kênh VTV2",
                     "display": "text-below",
                     "enable_detail": true,
-                    "id": "that-cot",
+                    "id": "kenh-vtv2",
                     "image": {
                         "height": 640,
                         "type": "cover",
-                        "url": "https://phimimg.com/upload/vod/20260406-1/192e03eeb8aa33f9be31ca5524d0810c.jpg",
+                        "url": "https://vn.xemtv.net/image/vtv2.png",
                         "width": 480
                     },
                     "label": {
@@ -201,32 +201,48 @@
                         "text": "Hoàn Tất (24/24)",
                         "text_color": "#ffffff"
                     },
-                    "name": "Thất Cốt",
+                    "name": "Kênh VTV2",
                     "remote_data": {
-                        "url": "https://media.hth4nh.eu.org/kkphim/detail/that-cot"
-                    },
-                    "type": "playlist"
-                },
-                {
-                    "description": "My Name is Zhao Wudi: Starting Over",
-                    "display": "text-below",
-                    "enable_detail": true,
-                    "id": "toi-la-trieu-ngo-dich-khoi-dong-lai",
-                    "image": {
-                        "height": 640,
-                        "type": "cover",
-                        "url": "https://phimimg.com/upload/vod/20260415-1/4e5419d698b91ae42349408b04c8a771.jpg",
-                        "width": 480
-                    },
-                    "label": {
-                        "color": "#35ba8b",
-                        "position": "top-left",
-                        "text": "Tập 14",
-                        "text_color": "#ffffff"
-                    },
-                    "name": "Tôi Là Triệu Ngô Địch: Khởi Động Lại",
-                    "remote_data": {
-                        "url": "https://media.hth4nh.eu.org/kkphim/detail/toi-la-trieu-ngo-dich-khoi-dong-lai"
+                        "url": {
+                            "sources": [
+                                {
+                                    "contents": [
+                                        {
+                                            "grid_number": 3,
+                                            "id": "kenh-vtv2",
+                                            "name": "",
+                                            "streams": [
+                                                {
+                                                    "id": "kenh-vtv2",
+                                                    "name": "Kênh VTV2",
+                                                    "stream_links": [
+                                                        {
+                                                            "default": false,
+                                                            "id": "kenh-vtv2-default",
+                                                            "name": "Mặc Định",
+                                                            "request_headers": [
+                                                                {
+                                                                    "key": "User-Agent",
+                                                                    "value": "MonPlayer"
+                                                                },
+                                                                {
+                                                                    "key": "Referer",
+                                                                    "value": "https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8"
+                                                                }
+                                                            ],
+                                                            "type": "hls",
+                                                            "url": "https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "id": "kenh-vtv2",
+                                    "name": "Vietsub"
+                                }
+                            ]
+                        }
                     },
                     "type": "playlist"
                 }
