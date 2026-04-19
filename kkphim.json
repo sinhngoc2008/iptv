@@ -172,7 +172,7 @@
                         "type": "cover",
                         "url": "https://vn.xemtv.net/image/vtv3.png",
                         "width": 320
-                    }
+                    },
                     "name": "Kênh VTV3",
                     "remote_data": {
                         "url": "https://raw.githubusercontent.com/sinhngoc2008/iptv/refs/heads/master/vtv3.json"
@@ -236,7 +236,7 @@
                         "type": "cover",
                         "url": "https://vn.xemtv.net/image/vtv3.png",
                         "width": 320
-                    }
+                    },
                     "name": "Kênh VTV3",
                     "remote_data": {
                         "url": "https://raw.githubusercontent.com/sinhngoc2008/iptv/refs/heads/master/vtv3.json"
